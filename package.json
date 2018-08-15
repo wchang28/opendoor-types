@@ -1,0 +1,20 @@
+{
+  "name": "opendoor-types",
+  "version": "0.0.1",
+  "description": "Type Definition for Opendoor API",
+  "typings": "./js/index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "Opendoor",
+    "API",
+    "Types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/opendoor-types.git"
+  },
+  "author": {
+    "name": "Wen Chang"
+  },
+  "license": "MIT"
+}
