@@ -11,7 +11,7 @@ export declare type KitchenCondition = GenericCondition;
 export declare type KitchenCounterType = 'corian' | 'formica' | 'Granite' | 'granite_slab' | 'granite_tile' | 'other' | 'Other/Unknown' | 'other_tile' | 'quartz' | 'Tile';
 export declare type MarketName = 'atlanta' | 'charlotte' | 'dallas' | 'houston' | 'las_vegas' | 'minneapolis' | 'nashville' | 'orlando' | 'phoenix' | 'raleigh' | 'san_antonio' | 'tampa';
 export declare type ProductType = 'listed' | 'prelist' | 'direct seller';
-export declare type RoofType = 'composition' | 'other' | 'shingle' | 'tile';
+export declare type RoofType = 'composition' | 'metal' | 'other' | 'shingle' | 'tile';
 export declare type StateCode = ('AK' | 'AL' | 'AR' | 'AZ' | 'CA' | 'CO' | 'CT' | 'DC' | 'DE' | 'FL' | 'GA' | 'GU' | 'HI' | 'IA' | 'ID' | 'IL' | 'IN' | 'KS' | 'KY' | 'LA' | 'MA' | 'MD' | 'ME' | 'MI' | 'MN' | 'MO' | 'MS' | 'MT' | 'NC' | 'ND' | 'NE' | 'NH' | 'NJ' | 'NM' | 'NV' | 'NY' | 'OH' | 'OK' | 'OR' | 'PA' | 'PR' | 'RI' | 'SC' | 'SD' | 'TN' | 'TX' | 'UT' | 'VA' | 'VT' | 'WA' | 'WI' | 'WV' | 'WY');
 export interface AuctionedProperty {
     amount_usd?: string;

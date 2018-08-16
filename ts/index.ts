@@ -102,6 +102,7 @@ export type ProductType
 
 export type RoofType
 = 'composition'
+| 'metal'
 | 'other'
 | 'shingle'
 | 'tile'
