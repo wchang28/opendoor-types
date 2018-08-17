@@ -13,7 +13,14 @@ export declare type MarketName = 'atlanta' | 'charlotte' | 'dallas' | 'houston' 
 export declare type ProductType = 'listed' | 'prelist' | 'direct seller';
 export declare type RoofType = 'composition' | 'metal' | 'other' | 'shingle' | 'tile';
 export declare type StateCode = ('AK' | 'AL' | 'AR' | 'AZ' | 'CA' | 'CO' | 'CT' | 'DC' | 'DE' | 'FL' | 'GA' | 'GU' | 'HI' | 'IA' | 'ID' | 'IL' | 'IN' | 'KS' | 'KY' | 'LA' | 'MA' | 'MD' | 'ME' | 'MI' | 'MN' | 'MO' | 'MS' | 'MT' | 'NC' | 'ND' | 'NE' | 'NH' | 'NJ' | 'NM' | 'NV' | 'NY' | 'OH' | 'OK' | 'OR' | 'PA' | 'PR' | 'RI' | 'SC' | 'SD' | 'TN' | 'TX' | 'UT' | 'VA' | 'VT' | 'WA' | 'WI' | 'WV' | 'WY');
-export interface AuctionedProperty {
+export interface Address {
+    street_address?: string;
+    unit?: string;
+    city?: string;
+    state?: StateCode;
+    zip_code?: string;
+}
+export interface AuctionedProperty extends Address {
     amount_usd?: string;
     apn?: string;
     avm_lower_bound?: number;
@@ -26,7 +33,6 @@ export interface AuctionedProperty {
     bathroom_features_separate_shower_tub?: boolean;
     bathroom_features_updated_tile_floors?: boolean;
     bedrooms?: number;
-    city?: string;
     dwelling_type?: DwellingType;
     eligibility_criteria_gated_community?: boolean;
     end_date?: Date | string;
@@ -63,12 +69,8 @@ export interface AuctionedProperty {
     school_district_elementary?: string;
     school_district_high?: string;
     sherlock_assessment?: string;
-    state?: StateCode;
-    street_address?: string;
     token?: string;
-    unit?: string;
     year_built?: number;
-    zip_code?: string;
 }
 export interface Bid {
     token: string;
