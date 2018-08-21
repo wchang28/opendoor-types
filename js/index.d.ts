@@ -1,7 +1,7 @@
 export declare type BackYardCondition = 'Fully Landscaped' | 'Needs work' | 'No Yard' | 'Partially Landscaped';
 export declare type GenericCondition = 'Brand New' | 'brand_new' | 'Fully Upgraded' | 'fully_upgraded' | 'Great Condition' | 'great_condition' | 'Heavily Worn' | 'heavily_worn' | 'Needs Work' | 'needs_work' | 'No upgrades' | 'no_upgrades' | 'Typical Use' | 'typical_use' | 'Upgraded' | 'upgraded';
 export declare type BathroomCondition = GenericCondition;
-export declare type DwellingType = 'apartment' | 'single-family' | 'townhouse' | 'unknown';
+export declare type DwellingType = 'apartment' | 'patio' | 'single-family' | 'townhouse' | 'unknown';
 export declare type FlooringCondition = GenericCondition;
 export declare type FlooringFloorType = 'carpet' | 'hardwood' | 'laminate' | 'other' | 'tile';
 export declare type HOAFrequency = 'Annually' | 'Monthly' | 'Quarterly' | 'Semi-Annually';

@@ -28,6 +28,7 @@ export type BathroomCondition = GenericCondition;
 
 export type DwellingType
 = 'apartment'
+| 'patio'
 | 'single-family'
 | 'townhouse'
 | 'unknown'
