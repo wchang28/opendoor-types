@@ -46,7 +46,10 @@ export type FlooringFloorType
 
 export type HOAFrequency
 = 'Annually'
+| 'annually'
 | 'Monthly'
+| 'One-off'
+| 'other'
 | 'Quarterly'
 | 'Semi-Annually'
 ;
